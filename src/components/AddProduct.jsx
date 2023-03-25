@@ -20,7 +20,7 @@ const AddProduct = () => {
         formData.append("file", file)
         formData.append("title", title)
         try {
-            await axios.post("http://localhost:5000/products",formData,
+            await axios.post("https://nine9usahkudummy-be-deploy.onrender.com/products",formData,
                 {
                     headers: {
                         "Content-Type" : "multipart/form-data"
